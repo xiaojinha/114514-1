@@ -51,9 +51,9 @@
 | `MANIFEST_BRANCH` | 源码分支 | twrp-12.1 |
 | `DEVICE_TREE_URL` | 设备树地址 | https://github.com/TeamWin/android_device_asus_I003D |
 | `DEVICE_TREE_BRANCH` | 设备树分支 | android-12.1 |
-| `DEVICE_PATH` | Device location | device/asus/I003D |
-| `COMMON_TREE_URL` | 设备位置 | https://github.com/TeamWin/android_device_asus_sm8250-common |
-| `COMMON_PATH` | 通用设备树地址 | device/asus/sm8250-common |
+| `DEVICE_PATH` | 设备位置 | device/asus/I003D |
+| `COMMON_TREE_URL` | 通用设备树地址 | https://github.com/TeamWin/android_device_asus_sm8250-common |
+| `COMMON_PATH` | 通用设备地址 | device/asus/sm8250-common |
 | `DEVICE_NAME` | 机型名称 | I003D |
 | `MAKEFILE_NAME` | 编译文件名 | omni_I003D |
 | `BUILD_TARGET` | 建立目标分区 (boot/recovery/vendorboot) | recovery |
