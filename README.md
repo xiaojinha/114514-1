@@ -1,21 +1,21 @@
-# Use Github Action to compile Recovery
+# 使用Github Action行动来编译恢复
 
-- Support ~~OFRP~~, SHRP, TWRP compilation and production
-
----
-
-## Thanks to
-- All contributors
+- 支持 ~~OFRP~~, SHRP, TWRP 的编译和生产
 
 ---
 
-## Release Notes
+## 感谢
+- 所有贡献者
+
+---
+
+## 发布说明
 ```
 = 2022/10/28
-- OFRP manifest is changed, so not fully support OFRP now (if you can slove this, please submit a pull request!)
+- OFRP清单已被修改，所以现在不完全支持OFRP（如果你能解决这个问题，请提交一个拉动请求！）。
 
 = 2022/07/08
-- TWRP and TWRP-based 5.X ~ 12.X are ***ALL COMPILED SUCCESSFULLY***
+- TWRP和基于TWRP的5.X ~ 12.X是***全部成功编译的***。
 
 = 2022/07/06
 - Add support for 5.1 branch
@@ -42,24 +42,24 @@
 
 -----
 
-## Parameter Description
+## 参数描述
 
-| Name | Description | Example |
+| 名称 | 描述 | 示例 |
 | ------------ | -------------------- | ------------ |
-| `MANIFEST_URL` | Source address | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
-| `MANIFEST_BRANCH` | Source branch | twrp-12.1 |
-| `DEVICE_TREE_URL` | Device address | https://github.com/TeamWin/android_device_asus_I003D |
-| `DEVICE_TREE_BRANCH` | Device branch | android-12.1 |
+| `MANIFEST_URL` | 源码地址 | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
+| `MANIFEST_BRANCH` | 源码分支 | twrp-12.1 |
+| `DEVICE_TREE_URL` | 设备树地址 | https://github.com/TeamWin/android_device_asus_I003D |
+| `DEVICE_TREE_BRANCH` | 设备树分支 | android-12.1 |
 | `DEVICE_PATH` | Device location | device/asus/I003D |
-| `COMMON_TREE_URL` | Common tree address | https://github.com/TeamWin/android_device_asus_sm8250-common |
-| `COMMON_PATH` | Common tree location | device/asus/sm8250-common |
-| `DEVICE_NAME` | Model name | I003D |
-| `MAKEFILE_NAME` | Makefile name | twrp_I003D |
-| `BUILD_TARGET` | Build Target Partition (boot/recovery/vendorboot) | recovery |
+| `COMMON_TREE_URL` | 设备位置 | https://github.com/TeamWin/android_device_asus_sm8250-common |
+| `COMMON_PATH` | 通用设备树地址 | device/asus/sm8250-common |
+| `DEVICE_NAME` | 机型名称 | I003D |
+| `MAKEFILE_NAME` | 编译文件名 | omni_I003D |
+| `BUILD_TARGET` | 建立目标分区 (boot/recovery/vendorboot) | recovery |
 
 -----
 
-## How to use
+## 怎样使用？
 ```
 For example, your username is: JohnSmith
 ```
