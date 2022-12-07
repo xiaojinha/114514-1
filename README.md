@@ -93,14 +93,14 @@ cat ssh_host_ed25519_key.pub
 ```
 cat ssh_host_ed25519_key
 ```
-   Copy the output from Termux.
+   复制Termux的输出。
 
-   In your browser, select *Secrets* under the Security tab.
-   Select Actions
-   Select New repository secret
-   For the New secret name, it should be SSH_PRIVATE_KEY
-   Paste the output from ssh_host_ed25519_key into the Value box.
-   Then select Add secret.
+   在你的浏览器中，选择安全标签下的*秘密*。
+   选择 Actions
+   选择 New repository secret
+   对于新的秘密名称，它应该是 SSH_PRIVATE_KEY
+   将ssh_host_ed25519_key的输出粘贴到Value框中。
+   然后选择 Add secret.
 
 ## 构建恢复
 #### 9. 点击 'Actions-Recovery Build'
