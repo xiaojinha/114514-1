@@ -105,10 +105,9 @@ cat ssh_host_ed25519_key
 ## 构建恢复
 #### 9. 点击 'Actions-Recovery Build'
 ![image](https://user-images.githubusercontent.com/37921907/177915304-8731ed80-1d49-48c9-9848-70d0ac8f2720.png)
-#### 10. Click 'Run workflow' and fill in according to the above 'parameter description'
+#### 10. 填写完毕后，点击 "Run workflow“ 开始运行，并根据上述'参数描述'进行填写。
 ![image](https://user-images.githubusercontent.com/37921907/177915346-71c29149-78fb-4a00-996f-5d84ffc9eb8c.png)
-#### 11. After filling in, click 'Run workflow' to start running
-
+#### 11. 填写完毕后，点击 "Run workflow "开始运行。
 -----
 
 ## Compilation results
