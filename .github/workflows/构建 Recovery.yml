@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       MANIFEST_URL:
-        description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
+        description: 'MANIFEST_URL (如果想使用SSH密钥，请使用 git@github.com:XXXXX)'
         required: true
         default: 'http://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'
       MANIFEST_BRANCH:
@@ -24,10 +24,10 @@ on:
         required: true
         default: 'device/gionee/GIONEE_BBL7516A'
       COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (if no common tree, leave blank)'
+        description: 'COMMON_TREE_URL (如果没有共同树，留空)'
         required: false
       COMMON_PATH:
-        description: 'COMMON_PATH (if no common tree, leave blank)'
+        description: 'COMMON_PATH (如果没有共同的树，留空)'
         required: false
       DEVICE_NAME:
         description: 'DEVICE_NAME'
