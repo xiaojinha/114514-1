@@ -6,13 +6,13 @@
 
 ## 感谢
 - 所有贡献者
-
+- 莫莫汉化 README.md
 ---
 
 ## 发布说明
 ```
 = 2022/10/28
-- OFRP清单已被修改，所以现在不完全支持OFRP（如果你能解决这个问题，请提交一个拉动请求！）。
+- OFRP清单已被修改，所以现在不完全支持OFRP（如果你能解决这个问题，请提交一个PR请求！）。
 
 = 2022/07/08
 - TWRP和基于TWRP的5.X ~ 12.X是***全部成功编译的***。
@@ -116,5 +116,5 @@ cat ssh_host_ed25519_key
 ## 注释
 
 #### TeamWin Recovery Project: https://github.com/minimal-manifest-twrp
-#### OrangeFox Recovery Project: https://gitlab.com/OrangeFox/Manifest
+#### OrangeFox Recovery Project: https://gitlab.com/OrangeFox
 #### SKYHAWK Recovery Project: https://github.com/SHRP/platform_manifest_twrp_omni
